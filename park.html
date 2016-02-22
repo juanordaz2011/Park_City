@@ -1,0 +1,227 @@
+<!-- To use different DTDs -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+   <!--
+      New Perspectives on HTML and CSS
+
+      Park City Gazette
+      Author: Juan
+      Date: Feb 20, 2016
+      Filename:         park.htm
+      Supporting files:
+
+   -->
+      <meta charset="utf-8">
+      <title>News</title>
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/normalize.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+      <link rel="stylesheet" type="text/css" href="css/paper.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+   </head>
+
+   <body>
+
+    <div class="container">
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#">Local</a></li>
+        <li class="divider"></li>
+        <li><a href="#">State</a></li>
+        <li class="divider"></li>
+        <li><a href="#">National</a></li>
+        <li class="divider"></li>
+        <li><a href="#">International</a></li>
+        <li class="divider"></li>
+        <li><a href="#">Sports</a></li>
+        <li class="divider"></li>
+        <li><a href="#">Weather</a></li>
+
+      </ul>
+      <ul id="dropdown2" class="dropdown-content">
+        <li><a href="#">For Sale</a></li>
+        <li class="divider"></li>
+        <li><a href="#">Wanted</a></li>
+        <li class="divider"></li>
+        <li><a href="#">Employment</a></li>
+        <li class="divider"></li>
+        <li><a href="#">Real Estate</a></li>
+        <li class="divider"></li>
+        <li><a href="#">Personal</a></li>
+      </ul>
+
+      <ul id="dropdown3" class="dropdown-content">
+        <li><a href="#">Attractions</a></li>
+        <li class="divider"></li>
+        <li><a href="#">Events</a></li>
+        <li class="divider"></li>
+        <li><a href="#">Parks</a></li>
+         <li class="divider"></li>
+        <li><a href="#">Camping </a></li>
+      </ul>
+
+      <ul id="dropdown4" class="dropdown-content">
+        <li><a href="#">Subscriptions</a></li>
+      </ul>
+
+      <div class="row">
+        <div class="col s12">
+          <nav id="navigation">
+            <div class="nav-wrapper">
+              <a href="#!" class="brand-logo">The Park City Today</a>
+              <ul class="right hide-on-med-and-down">
+              <!-- Dropdown Trigger -->
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown1">News<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Classifieds<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown3">Tourism<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown4">Contact us<i class="material-icons right">arrow_drop_down</i></a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    <!-- NAVIGATION ENDS -->
+
+      <div class="row">
+
+        <div class="col s12">
+          <div id="header" class="slider">
+            <ul class="slides">
+              <li>
+                <img id="cityPic" src="img/pcglogo.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="col s12 m4 l3"> <!-- Note that "m4 l3" was added -->
+
+          <ul id="slide-out" class="side-nav">
+            <li><a href="#!">Complete Marathon Results</a></li>
+            <li><a href="#!">National Park Acquires Land </a></li>
+            <li><a href="#!">School Board Election Results </a></li>
+            <li><a href="#!">Spending Referendum Defeated</a></li>
+            <li><a href="#!">Graduation Awards </a></li>
+            <li><a href="#!">New Highway Proposed</a></li>
+            <li><a href="#!">Camping Tips</a></li>
+            <li><a href="#!">Cougar Sightings Increase</a></li>
+            <li><a href="#!">Editorials</a></li>
+            <li><a href="#!">Park City Profile</a></li>
+          </ul>
+          <a href="#" data-activates="slide-out" class="button-collapse btn  show-on-large"><i class="mdi-navigation-menu"> More News</i></a>
+        </div>
+
+
+        <div class="col s12 m8 l9"> <!-- Note that "m8 l9" was added -->
+          <div class="row">
+            <div class="col s8">
+              <div class="divider"></div>
+              <div class="section">
+                <h5>Local Woman Wins Marathon</h5>
+                <p>
+                    Park City native Laura Blake won the 27th Front Range Marathon over an elite field of the best long-distance runners in the country. Laura's time of 2 hr. 28 min. 21 sec. was only 2 minutes off the women's course record set last year by Sarah Rawlings. Kathy Lasker and Lisa Peterson finished second and third, respectively. Laura's victory came on the heels of her performance at the NCAA Track and Field Championships, in which she placed second running for Colorado State.
+                    In an exciting race, Peter Teagan of San Antonio, Texas, used a finishing kick to win the men's marathon for the second straight year, in a time of 2 hr. 12 min. 34 sec. Ahead for much of the race, Kyle Wills of Billings, Montana, finished second when he could not match Teagan's finishing pace. Jason Wu of Cutler, Colorado, placed third in a very competitive field.
+                    This year's race through downtown Boulder boasted the largest field in the marathon's history, with over 9500 men and 6700 women competing. Race conditions were perfect with low humidity and temperatures that never exceeded 85 degrees.</p>
+              </div>
+            </div>
+
+            <div class="col s12 m4 l0">
+              <div class="row">
+                <div class="col s3">
+                  <div>
+                      <img id="blake" class="materialboxed" data-caption="A picture of some deer and tons of trees" width="100" src="img/blake.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- News one ends here-->
+
+          <div class="row">
+            <div class="col s8">
+              <div class="divider"></div>
+              <div class="section">
+                <h5>Highway 6 Reopens</h5>
+                <p>
+                      Highway 6 will reopen this Friday, May 3rd, after a final safety inspection. A late blizzard delayed road crews, marking this as one of the latest dates on record for the highway's reopening.
+                      Rising to an elevation of 12,351 feet at Grace Pass, Highway 6 is a main link between Park City and Lake Elton. The reopening of the road is one of the annual signs that summer is near and the tourist season will soon be upon us!
+                </p>
+              </div>
+            </div>
+          </div><!-- New two ends here-->
+
+          <div class="row">
+            <div class="col s8">
+              <div class="divider"></div>
+              <div class="section">
+                <h5>Cougar Sightings Increase</h5>
+                <p>
+                      Cougar sightings have increased 40% in the Park City area according to a report released yesterday by the state DNR. In the last month alone, there were ten sightings in Park City and the surrounding communities of Riley and Dixon. This compares to only twelve sightings for the entire spring of last year.
+                      Reasons for the growing number of cougar sightings include increasing encroachment by people into former wildlife habitats and new wildlife regulations that result in decreasing numbers of elk and deer being taken by hunters. Cougars may be wandering into developed areas, following the herds.
+                      DNR spokesman Steve Tasker asks residents to call the DNR report line at 555-6981 if they believe they have seen a cougar or any large predatory animal. Two fatalities have already occurred in the west this year from cougar attacks.
+                </p>
+              </div>
+            </div>
+          </div><!-- New three ends here-->
+
+          <div class="row">
+            <div class="col s8">
+              <div class="divider"></div>
+              <div class="section">
+                <h5>If You Encounter a Cougar</h5>
+                <p>
+                      Stop, stand tall, and don't run. A cougar's instinct is to chase.
+                      Try to appear larger than the cougar by raising your arms.
+                      Back away slowly, always keeping eye contact.
+                      If the cougar displays aggressive behavior, shout and wave your arms. Convince the cougar that you are not prey, but a potential danger.
+                      In case of an attack, stay on your feet and fight back aggressively.
+                </p>
+              </div>
+            </div>
+            <div class="col s12 m4 l2">
+              <div class="row">
+                <div class="col s3">
+                  <div>
+                      <img id="cougar"class="materialboxed" data-caption="DANGEROUS" width="100" src="img/cougar.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- New four ends here-->
+
+          <div class="row">
+            <form class="col s8">
+              <div class="divider"></div>
+              <div class="row">
+                <div class="section">
+                  <h3 id="subscribe">Subscribe Now!</h3>
+                  <div class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="email" data-error="wrong" data-success="right">Email</label>
+                    <button class="btn waves-effect waves-light col s12" type="submit" name="action">Submit
+                      <i class="material-icons right">send</i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div><!--Subscription ends here -->
+
+      </div><!-- End of news -->
+<!-- NEWS ENDS HERE -->
+    </div><!--ends main container div -->
+
+
+
+    <script src="js/modernizr-1.5.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+   </body>
+
+</html>

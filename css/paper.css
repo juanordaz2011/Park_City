@@ -1,0 +1,50 @@
+/*
+   New Perspectives on HTML and CSS
+
+   Park City Gazette Style Sheet
+   Author: Juan
+   Date: Juan
+
+   Filename:         paper.css
+   Supporting Files:
+
+*/
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    margin-bottom: 0px;
+}
+
+#header{
+    margin-bottom: 10px;
+}
+
+#cityPic{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#mainTitle{
+    text-align: center;
+}
+
+#subscribe{
+    text-align: center;
+}
+
+#blake{
+    padding-top: 130px;
+    /*float: left;*/
+     border-radius: 25px;
+
+}
+
+#cougar{
+    padding-top: 50px;
+
+}
+
